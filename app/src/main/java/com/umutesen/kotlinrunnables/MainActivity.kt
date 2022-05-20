@@ -38,7 +38,7 @@ class MainActivity : AppCompatActivity() {
 
         handler.post(runnable)
 
-        //binding.button.isEnabled=false
+        binding.button.isEnabled=false
 
     }
 
@@ -48,6 +48,6 @@ class MainActivity : AppCompatActivity() {
         number=0
         binding.textView.text="Time:0"
 
-       // binding.button.isEnabled=true
+        binding.button.isEnabled=true
     }
 }
